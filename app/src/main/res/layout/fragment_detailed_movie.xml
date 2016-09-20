@@ -1,0 +1,118 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdelrahman.popularmovies.DetailedMovieFragment"
+    tools:showIn="@layout/activity_detailed_movie"
+    android:orientation="vertical"
+    android:background="@color/colorblack"
+    >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/title"
+                            android:layout_weight="1"
+                            android:textSize="35dp"
+                            android:textColor="#ffffff" />
+                        <ImageView
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/image"
+                            />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/date"
+                            android:textSize="25dp"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/avg_rate"
+                            android:textSize="25dp"
+                            android:textColor="#ffffff" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/votes"
+                                    android:textSize="25dp"
+                                    android:textColor="#ffffff"
+                                    android:layout_marginTop="10dp" />
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/favorite"
+                                    android:src="@drawable/empty_favorite"
+                                    android:background="@color/colorblack"
+                                    android:layout_marginLeft="100dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/descr"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:id="@+id/trailer"
+                            >
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/youtube2"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorblack"
+                                android:textColor="@color/colorRed"
+                                android:text="Watch trailers"
+                                android:textSize="25dp"
+                                android:layout_gravity="center" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/reviews"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                                <ImageView
+                                    android:layout_width="128dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/review" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Read reviews"
+                                    android:textColor="@color/colorBlue"
+                                    android:textSize="25dp"
+
+                                    android:layout_gravity="center" />
+                        </LinearLayout>
+                </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
