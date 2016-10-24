@@ -6,6 +6,9 @@ detailed movie like the rates ,votes,watch trailers ..etc .also having the optio
 In the Background.java class in lines 50,57,63 kindly add your movie api key from https://www.themoviedb.org/ 
 where you register and get an api and then put it in the right place in the background class .
 Screenshots
+![alt tag](https://cloud.githubusercontent.com/assets/17533701/19644130/c9667bfe-99f6-11e6-9526-22a06ad1c400.jpg)
+![alt tag](https://cloud.githubusercontent.com/assets/17533701/19644136/ced9468e-99f6-11e6-8c2b-c29c3feeb8fd.jpg)
+![alt tag](https://cloud.githubusercontent.com/assets/17533701/19644139/d30e6284-99f6-11e6-9e2a-7d06974bfd1b.jpg)
 ![alt tag](https://cloud.githubusercontent.com/assets/17533701/18756637/57ed1214-80f9-11e6-801d-ffdfbf73feed.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/17533701/18756641/580b54cc-80f9-11e6-8f3d-699a30ba7f32.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/17533701/18756642/582f7eec-80f9-11e6-8231-705234d734cd.png)
